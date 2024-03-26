@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.listacen {
+    width: 300px;
+    position: fixed;
+    top: 5px;
+    
+}
+.listacen h2 {
+    color: black;
+    background: #ffe925;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.listacen ul {
+    position: relative;
+    background: rgba(0, 0, 0, 0.651);
+}
+.listacen ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5s;
+
+}
+.listacen ul li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: #ffe9259a;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+}
+.listacen ul li span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-20px);
+}
+.listacen ul li:hover span {
+    background: #ffffff;
+    color: #ffe925;
+}
+
+.listacen2 {
+    width: 300px;
+    position: fixed;
+    top: 145px;
+}
+.listacen2 h2 {
+    color: black;
+    background: #ffe925;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.listacen2 ul{
+    position: relative;
+    background: rgba(0, 0, 0, 0.651);
+}
+.listacen2 ul li {
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
+    transition: transform 0.5s;
+}
+.listacen2 li:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background: #ffe9259a;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
+    color: #fff;
+}
+.listacen2 ul li span {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #000000;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-20px);
+}
+.listacen2 ul li:hover span {
+    background: #ffffff;
+    color: #ffe925;
+}
