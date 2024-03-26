@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+div ul {
+  justify-content: center;
+}
+
+ul.menu {
+    display: flex;
+    list-style-type: none;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+  ul.menu li {
+    float: left;
+  }
+
+  ul.menu li a {
+    display: flex;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 24px 28px;
+    text-decoration: none;
+  }
+
+  ul.menu li a:hover {
+    background-color: #e9ce33;
+  }
+
+    @media screen and (max-width: 768px)
+{}
+
+    @media screen and (max-width: 480px)
+{}
